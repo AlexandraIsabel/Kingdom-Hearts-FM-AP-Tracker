@@ -389,15 +389,15 @@
                     },
                     {
                         "name": "Queen's Castle - Left Hedge Chest",
-                        "access_rules":["footprints", "high_jump", "glide"]
+                        "access_rules":["wonderland:2", "high_jump", "glide"]
                     },
                     {
                         "name": "Queen's Castle - Right Hedge Blue Chest",
-                        "access_rules":["footprints", "high_jump", "glide"]
+                        "access_rules":["wonderland:2", "high_jump", "glide"]
                     },
                     {
                         "name": "Queen's Castle - Right Hedge Red Chest",
-                        "access_rules":["footprints", "high_jump", "glide"]
+                        "access_rules":["wonderland:2", "high_jump", "glide"]
                     },
                     {
                         "name": "Lotus Forest - Southwest Corner Chest",
@@ -456,7 +456,7 @@
             },
             {
                 "name": "Wonderland - After Footprints",
-                "access_rules":["wonderland, [$world_count:2], footprints"],
+                "access_rules":["wonderland:2", "[$world_count:2], footprints"],
                 "sections": [
                     {
                         "name": "Lotus Forest - Thunder Plant Chest 1",
@@ -509,7 +509,7 @@
                         "name": "Bizarre Room - Flower Pot",
                         "chest_unopened_img": "/images/misc/emblem.png",
                         "chest_opened_img": "/images/misc/emblem_bw.png"
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -602,7 +602,7 @@
                         "access_rules":["green_trinity"],
                         "chest_unopened_img": "/images/misc/emblem.png",
                         "chest_opened_img": "/images/misc/emblem_bw.png"
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -614,7 +614,7 @@
             },
             {
                 "name": "Deep Jungle - After Slides",
-                "access_rules":["deep_jungle, [$world_count:2], slides"],
+                "access_rules":["deep_jungle:2", "[$world_count:2], slides"],
                 "chest_unopened_img": "/images/misc/emblem.png",
                 "chest_opened_img": "/images/misc/emblem_bw.png",
                 "sections": [
@@ -771,7 +771,7 @@
                 "name": "Olympus Coliseum - After Entry Pass",
                 "chest_unopened_img": "/images/misc/emblem.png",
                 "chest_opened_img": "/images/misc/emblem_bw.png",
-                "access_rules":["olympus_coliseum, [$world_count:2], entry_pass"],
+                "access_rules":["olympus_coliseum:2, [$world_count:2], entry_pass"],
                 "sections": [
                     {
                         "name": "Coliseum Lobby - Defeat Cerberus",
@@ -793,7 +793,7 @@
                 "name": "Olympus Coliseum - Cups",
                 "chest_unopened_img": "/images/misc/emblem.png",
                 "chest_opened_img": "/images/misc/emblem_bw.png",
-                "access_rules":["olympus_coliseum, [$world_count:2], entry_pass"],
+                "access_rules":["olympus_coliseum:2", "[$world_count:2]"],
                 "sections": [
                     {
                         "name": "Phil Cup",
@@ -1221,7 +1221,7 @@
                     },
                     {
                         "name": "Ursula's Lair - Use Fire on Urchin Chest",
-                        "access_rules":["fire, trident"]
+                        "access_rules":["fire, atlantica:2"]
                     },
                     {
                         "name": "Triton's Palace - White Trinity Chest",
@@ -1293,7 +1293,7 @@
                     },
                     {
                         "name": "Cavern Nook - Clam",
-                        "access_rules":["trident"]
+                        "access_rules":["atlantica:2"]
                     }
                 ],
                 "map_locations": [
@@ -1312,20 +1312,20 @@
                 "chest_opened_img": "/images/misc/emblem_bw.png",
                 "sections": [
                     {
-                        "name": "Sunken Ship - Obtain Crystal Trident"
+                        "name": "Sunken Ship - Obtain Crystal atlantica:2"
                     },
                     {
                         "name": "Ursula's Lair - Defeat Ursula I",
-                        "access_rules":["$has_offensive_magic, trident"]
+                        "access_rules":["$has_offensive_magic, atlantica:2"]
                     },
                     {
                         "name": "Ursula's Lair II - Defeat Ursula II",
-                        "access_rules":["mermaid_kick, $has_offensive_magic, trident"],
+                        "access_rules":["mermaid_kick, $has_offensive_magic, atlantica:2"],
                         "item_count": 2
                     },
                     {
                         "name": "Ariel's Grotto - Seal Atlantica Keyhole",
-                        "access_rules":["mermaid_kick, $has_offensive_magic, trident"]
+                        "access_rules":["mermaid_kick, $has_offensive_magic, atlantica:2"]
                     }
                 ],
                 "map_locations": [
@@ -1375,11 +1375,11 @@
                     },
                     {
                         "name": "Boneyard - Tombstone Puzzle Chest",
-                        "access_rules":["$access_chests|6, forget_me_not"]
+                        "access_rules":["$access_chests|6, halloween_town:2"]
                     },
                     {
                         "name": "Moonlight Hill - White Trinity Chest",
-                        "access_rules":["$access_chests|6, white_trinity, forget_me_not"]
+                        "access_rules":["$access_chests|6, white_trinity, halloween_town:2"]
                     }
                 ],
                 "map_locations": [
@@ -1392,7 +1392,7 @@
             },
             {
                 "name": "Halloween Town - After Jack-in-the-Box",
-                "access_rules":["halloween_town, [$world_count:2], jack_box, forget_me_not"],
+                "access_rules":["halloween_town, [$world_count:2], halloween_town:2"],
                 "chest_unopened_img": "/images/misc/chest.png",
                 "chest_opened_img": "/images/misc/chest_bw.png",
                 "sections": [
@@ -1681,19 +1681,19 @@
                     },
                     {
                         "name": "Entrance Hall - Emblem Piece (Chest)",
-                        "access_rules":["theon_6", "high_jump:3", "$has_emblems"],
+                        "access_rules":["hollow_bastion:2", "high_jump:3", "$has_emblems"],
                         "chest_unopened_img": "/images/misc/emblem.png",
                         "chest_opened_img": "/images/misc/emblem_bw.png"
                     },
                     {
                         "name": "Entrance Hall - Emblem Piece (Statue)",
-                        "access_rules":["theon_6, red_trinity", "high_jump:3, red_trinity", "$has_emblems, red_trinity"],
+                        "access_rules":["hollow_bastion:2, red_trinity", "high_jump:3, red_trinity", "$has_emblems, red_trinity"],
                         "chest_unopened_img": "/images/misc/emblem.png",
                         "chest_opened_img": "/images/misc/emblem_bw.png"
                     },
                     {
                         "name": "Entrance Hall - Emblem Piece (Fountain)",
-                        "access_rules":["theon_6", "high_jump:3", "$has_emblems"],
+                        "access_rules":["hollow_bastion:2", "high_jump:3", "$has_emblems"],
                         "chest_unopened_img": "/images/misc/emblem.png",
                         "chest_opened_img": "/images/misc/emblem_bw.png"
                     }

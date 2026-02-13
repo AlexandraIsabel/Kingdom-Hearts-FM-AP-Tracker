@@ -26,5 +26,33 @@ SLOT_CODES =
             [false] = 0, -- Advanced Logic Off
             [true] = 1  -- Advanced Logic On
         }
+    },
+    keyblades_unlock_chests =
+    {
+        code = "keyblade_locks",
+        mapping =
+        {
+            [false] = 0,
+            [true] = 1
+        }
+    },
+    cups =
+    {
+        code = "cups",
+        mapping =
+        {
+            ["off"] = 0,
+            ["hercules_cup"] = 1,
+            ["hades_cup"] = 1
+        }
+    },
+    super_bosses =
+    {
+        code = "superbosses",
+        mapping =
+        {
+            [false] = 0,
+            [true] = 1
+        }
     }
 }

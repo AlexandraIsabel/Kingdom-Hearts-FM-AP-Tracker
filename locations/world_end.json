@@ -387,11 +387,12 @@
                 ]
             },
             {
-                "name": "World Terminus - Hollow Bastion Chest",
+                "name": "World Terminus",
                 "visibility_rules":["missables_on"],
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Hollow Bastion Chest",
+                        "ref": "Overview/End of the World - World Terminus/World Terminus - Hollow Bastion Chest"
                     }
                 ],
                 "map_locations": [

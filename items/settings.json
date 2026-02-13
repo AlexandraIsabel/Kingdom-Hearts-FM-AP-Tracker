@@ -44,7 +44,7 @@
         ]
     },
     {
-        "name": "Manual - Superbosses",
+        "name": "Superbosses",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "name": "Manual - Olympus Coliseum Cups",
+        "name": "Olympus Coliseum Cups",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
